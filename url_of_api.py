@@ -1,8 +1,13 @@
 from enum import Enum
 
-class UrlOfApi(Enum):
+class UrlOfApi():
 
-    # 담배꽁초 쓰레기통 공공데이터 url
+    #################### 카카오 오픈 api ########################
+    KAKAO_MAP_API = "https://dapi.kakao.com/v2/local/search/address.json?query="
+
+
+
+    ##################### 공공 데이터 관련 api url####################
 
     # 서울특별시 중랑구_담배꽁초쓰레기통
     JUNGNANG_GU = (
